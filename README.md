@@ -2,6 +2,10 @@
 
 ### Date created
 Include the date you created this project and README file.
+chicago.csv
+washington.csv
+new_york_city.csv
+README.md
 
 ### Project Title
 Replace the Project Title
