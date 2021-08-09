@@ -8,10 +8,10 @@ new_york_city.csv
 README.md
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Using python to understand US Bikeshare Data
 
 ### Files used
 Include the files used
