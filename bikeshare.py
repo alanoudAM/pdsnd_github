@@ -17,7 +17,7 @@ def input_user(selections, message):
             return select
         else:
             select = ""
-            print("please enter a valid selecion")
+            print("please enter a valid selecion here")
 
 def get_filters():
     """
