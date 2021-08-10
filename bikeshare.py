@@ -32,7 +32,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input_user(cities, "please enter the city(new york city,chicago or washington):")
     # get user input for month (all, january, february, ... , june)
-    month = input_user(months, "please enter the month(january, february, march, april, may, june or all):")
+    month = input_user(months, "please enter the month:(january, february, march, april, may, june or all):")
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input_user(days, "please enter the day:")
 
