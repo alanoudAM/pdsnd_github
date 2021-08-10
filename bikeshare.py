@@ -32,9 +32,9 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input_user(cities, "please enter the city(new york city,chicago or washington):")
     # get user input for month (all, january, february, ... , june)
-    month = input_user(months, "please enter the month(january, february, march, april, may, june or all):")
+    month = input_user(months, "please enter the month:(january, february, march, april, may, june or all):")
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input_user(days, "please enter the day:")
+    day = input_user(days, "please enter the day you want:")
 
     print('-'*40)
     return city, month, day
@@ -157,7 +157,7 @@ def user_stats(df):
         print("the recent year of birth is: {}".format(df['year_of_birth'].max()))
         print("the most common year of birth is: {}".format(df['year of birth'].mode()[0]))
     else:
-        print('there is no year of birth info')
+        print('there is no year of birth information')
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
